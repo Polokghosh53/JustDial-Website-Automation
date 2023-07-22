@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hackathon Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GymPageTest(failed)">
+    <classes>
+      <class name="com.cognizant.hackathon.test.JustDialGymPageTest">
+        <methods>
+          <include name="GettingTheSubMenuItemsListOfGym"/>
+          <include name="OpenJustDialWebPage"/>
+          <include name="SelectingGymOptionInMainPage"/>
+          <include name="takeFailedScreenshots"/>
+          <include name="CloseJustDialWebPage"/>
+          <include name="CloseLoginPopUp"/>
+        </methods>
+      </class> <!-- com.cognizant.hackathon.test.JustDialGymPageTest -->
+    </classes>
+  </test> <!-- GymPageTest(failed) -->
+  <test thread-count="5" name="FreeListingPageTest(failed)">
+    <classes>
+      <class name="com.cognizant.hackathon.test.FreeListingPageTest">
+        <methods>
+          <include name="takeFailedScreenshots"/>
+          <include name="NavigatingToFreeListingPage"/>
+          <include name="CloseLoginPopUp"/>
+          <include name="FillingFreeListingFormWithPhoneNumberFieldInvalid"/>
+          <include name="OpenJustDialWebPage"/>
+          <include name="CloseJustDialWebPage"/>
+        </methods>
+      </class> <!-- com.cognizant.hackathon.test.FreeListingPageTest -->
+    </classes>
+  </test> <!-- FreeListingPageTest(failed) -->
+  <test thread-count="5" name="HomePageCarWashServicesTest(failed)">
+    <classes>
+      <class name="com.cognizant.hackathon.test.JustDialHomePageTest">
+        <methods>
+          <include name="takeFailedScreenshots"/>
+          <include name="OpenJustDialWebPage"/>
+          <include name="CloseLoginPopUp"/>
+          <include name="PrintingNamesAndPhoneNumbersOfTopFiveResult"/>
+          <include name="SearchingForCarWashingServices"/>
+          <include name="NavigateBackToHomePage"/>
+          <include name="CloseJustDialWebPage"/>
+          <include name="SortingSearchResultByRatingDescending"/>
+          <include name="SettingSearchLocationAsKolkata"/>
+        </methods>
+      </class> <!-- com.cognizant.hackathon.test.JustDialHomePageTest -->
+    </classes>
+  </test> <!-- HomePageCarWashServicesTest(failed) -->
+</suite> <!-- Failed suite [Hackathon Test Suite] -->
