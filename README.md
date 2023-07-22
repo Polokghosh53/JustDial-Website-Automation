@@ -6,7 +6,7 @@ This project aims to identify car wash services based on specific criteria such 
 
  
 
-1. The **car washing services** should be located near the user's location.
+1. The **Car Washing services** should be located near the user's location.
 2. The services should have a rating higher than 4 stars.
 3. The customer votes for each service should be more than 20.
 
