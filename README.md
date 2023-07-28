@@ -70,3 +70,14 @@ The automation script should cover the following key aspects:
  
 
 Please note that while the suggested website is [Justdial.com](https://www.justdial.com/), any other legitimate website can be used for this project.
+
+# IDE Used
+✅ Eclipse IDE for Enterprise Java and Web Developers 2023
+
+# Pre-requisites
+1. TestNG (can be installed from Eclipse Marketplace)
+
+# Steps to reproduce
+1. In the project directory, a xml file named **testng.xml** is present.
+2. Right-click the file and **Run As** -> **TestNG Suite**. The sequence of the test pages will execute accordingly
+3. From there, after the execution, you can view the **Extent Report** from **testreport** -> **TESTREPORT1.HTML**, **TESTREPORT2.HTML**, **TESTREPORT3.HTML**
