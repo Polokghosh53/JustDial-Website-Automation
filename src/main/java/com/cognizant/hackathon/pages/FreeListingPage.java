@@ -45,6 +45,7 @@ public class FreeListingPage {
 		driver.findElement(mobileNo).sendKeys(arg5);
 		UserSleep.rest(2000);
 		driver.findElement(submit).click();
+		UserSleep.rest(4000);
 		Alert alert = driver.switchTo().alert();
 		String message = driver.switchTo().alert().getText();
 		System.out.println(message);
