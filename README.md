@@ -78,6 +78,6 @@ Please note that while the suggested website is [Justdial.com](https://www.justd
 1. TestNG (can be installed from Eclipse Marketplace)
 
 # Steps to reproduce
-1. In the project directory, a xml file named **testng.xml** is present.
+1. In the project directory, a xml file named `testng.xml` is present.
 2. Right-click the file and **Run As** -> **TestNG Suite**. The sequence of the test pages will execute accordingly
-3. From there, after the execution, you can view the **Extent Report** from **testreport** -> **TESTREPORT1.HTML**, **TESTREPORT2.HTML**, **TESTREPORT3.HTML**
+3. From there, after the execution, you can view the **Extent Report** from **testreport** -> `TESTREPORT1.HTML`, `TESTREPORT2.HTML`, `TESTREPORT3.HTML`
